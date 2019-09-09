@@ -1,0 +1,157 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+
+.fullpage{
+    
+     background-image: url(../images/background2.png);
+    padding:0;
+    margin:0;
+}
+.overlay{
+    left: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    
+    
+    
+    
+}
+.logo{
+        position: relative;
+    background-color:#000000bd;
+         
+}
+.logo a{
+    position: relative;
+    color: #FFF;
+    z-index: 3;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+.row{
+padding-bottom: 20px;
+}
+.main{
+    position:relative;
+    overflow: hidden;
+    padding:0;
+    margin: 50px 0 21px 0;
+    z-index: 3;
+}
+
+.main .left {
+padding:100px 0 100px 0;
+
+}
+
+.main .left p{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+
+}
+
+
+
+.main .left h1{
+    color: #FFF;
+    max-width: 625px;
+    font-size: 57px;
+    
+
+}
+
+.main .left span{
+
+    color: #FFF;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+        font-weight: 900;
+}
+
+.main .left button{
+        background: none;
+    border: none;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 300;
+    padding: 0;
+    padding-top: 6px;
+}
+
+.main .right{
+    background-color: #FFF;
+    margin: 40px 0 0 0;
+    padding:20px;
+    box-shadow: -11px -7px 19px 0px rgba(0,0,0,.5);
+    box-shadow: -11px 7px 19px 0px rgba(0,0,0,.5);
+
+}
+
+.main .right h1{
+        padding: 40px;
+    color: #ADADAD;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+
+.main .right .form label{
+        color: #a1a1a19c;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.main .right .form input{
+    border: 0;
+    border-radius: unset;
+    border-bottom: 1px solid #A1A1A1;
+    
+}
+
+
+.main .right button{
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+    color: #495057;
+    border-radius: 50px;
+    font-size: 19px;
+    padding: 10px 50px 10px 50px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.nav{
+background-color:black;
+
+}
+.tickets{
+    padding-top: 40px;
+
+}
+.tickets .head {
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+
+table thead tr{
+    background-color:black;
+    color:#FFF;
+
+}
